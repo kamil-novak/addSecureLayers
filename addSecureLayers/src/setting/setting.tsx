@@ -118,7 +118,6 @@ export default class Setting extends React.PureComponent<AllWidgetSettingProps<I
   }
 
   // Velikost textu
-  // Portal URL
   onFontSizeChange = (event: any) => {
     console.log(event)
     this.setState(prevState => ({
