@@ -86,8 +86,7 @@ Pokud není atribut nakonfigurován, vrstva je vložena na nejvyšší pozici v 
 V rámci `"settings"` lze nastavit jakoukoliv vlastnost (properties) dle dokumentace [ArcGIS API for JavaScript 4.x](https://developers.arcgis.com/javascript/latest/api-reference/), která podporuje `autocast` (popupTemplate, opacity, visible, ...).<br>
 Tímto způsobem lze provést např. kompletní nastavení pop-up oken apod. Využít lze i možnosti načíst vrstvu pomocí vlastnosti `portalItem.id`. V tomto případě se nastavení symbologie, filtrů, pop-up oken atd. převezmou z nastavení položky AOL / Portalu.<br>
 
-Properties dokumentace je nutné přepsat do JSON syntaxe. V zásadě se jedná pouze o uzavírání jednotlivých properties do uvozovek.<br>
-Místo dokumentace ArcGIS JS API lze využít i příslušné části předpisu webové mapy na [ArcGIS Online Assistant](https://ago-assistant.esri.com/). Postup by pak zahrnoval sestavit pomocnou webovou mapu z vrtev, které chceme po přihlášení přidat do do cílové webové mapy, resp. aplikace. Přejít na JSON předpis pomocné webové mapy na ArcGIS Online Assistant a odtud zkopírovat příslušné části týkající se vrstev do konfigurace widgetu. Zde je již syntaxe finální a není potřeba nic měnit. Pomocnou webovou mapu pak lze smazat. 
+Properties dokumentace je nutné přepsat do JSON syntaxe. V zásadě se jedná pouze o uzavírání jednotlivých properties do uvozovek.
 
 #
 
